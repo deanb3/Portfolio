@@ -48,7 +48,7 @@ function changeBackground(condition) {
 
     switch (condition) {
         case 'clear':
-            body.style.backgroundImage = "url('C:\Users\deane\Downloads\pexels-aj4xo-29499227.jpg')";
+            body.style.backgroundImage = "url('C:\Users\deane\Downloads\clear sky background (1).jpg')";
             break;
         case 'clouds':
             body.style.backgroundImage = "url('C:\Users\deane\Downloads\tinified (1)\cloudy background.jpg')";
