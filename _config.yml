@@ -1,0 +1,5 @@
+name: Your Portfolio
+title: null
+baseurl: ""
+include: ["_pages"]
+exclude: ["README.md"]
