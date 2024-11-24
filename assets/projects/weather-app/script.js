@@ -51,7 +51,7 @@ function changeBackground(condition) {
             body.style.backgroundImage = "url('C:\Users\deane\Downloads\pexels-aj4xo-29499227.jpg')";
             break;
         case 'clouds':
-            body.style.backgroundImage = "url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Cloudy_sky_%2826171935906%29.jpg/1024px-Cloudy_sky_%2826171935906%29.jpg')";
+            body.style.backgroundImage = "url('C:\Users\deane\Downloads\tinified (1)\cloudy background.jpg')";
             break;
         case 'rain':
             body.style.backgroundImage = "url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Cloudy_sky_%2826171935906%29.jpg/1024px-Cloudy_sky_%2826171935906%29.jpg')";
