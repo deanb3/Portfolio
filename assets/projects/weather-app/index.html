@@ -3,25 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac Toe</title>
+    <title>Weather App</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Tic-Tac-Toe</h1>
-        <div class="game-board">
-            <div class="cell" id="cell-0" onclick="makeMove(0)"></div>
-            <div class="cell" id="cell-1" onclick="makeMove(1)"></div>
-            <div class="cell" id="cell-2" onclick="makeMove(2)"></div>
-            <div class="cell" id="cell-3" onclick="makeMove(3)"></div>
-            <div class="cell" id="cell-4" onclick="makeMove(4)"></div>
-            <div class="cell" id="cell-5" onclick="makeMove(5)"></div>
-            <div class="cell" id="cell-6" onclick="makeMove(6)"></div>
-            <div class="cell" id="cell-7" onclick="makeMove(7)"></div>
-            <div class="cell" id="cell-8" onclick="makeMove(8)"></div>
+    <div class="app-container">
+        <div class="search-container">
+            <input type="text" id="city" placeholder="Enter a City...">
+            <button onclick="getWeather()">Search</button>
         </div>
-        <p id="status">Player X's Turn</p>
-        <button id="resetButton" onclick="resetGame()">Reset Game</button>
+
+        <div class="weather-container">
+            <div class="current-weather">
+                <div class="icon">
+                    <!-- Current Weather Icon -->
+                </div>
+                <div class="info">
+                    <h2 id="cityName">City</h2>
+                    <p id="temperature">Temperature: --°F</p>
+                    <p id="description">--</p>
+                </div>
+            </div>
+            
+            <div class="forecast">
+                <!-- Forecast for 4 Days -->
+                <div class="day">
+                    <p>Wednesday</p>
+                    <div class="icon">
+                        <!-- Forecast Icon -->
+                    </div>
+                    <p class="temp">21°F</p>
+                </div>
+                <div class="day">
+                    <p>Thursday</p>
+                    <div class="icon">
+                        <!-- Forecast Icon -->
+                    </div>
+                    <p class="temp">24°F</p>
+                </div>
+                <div class="day">
+                    <p>Friday</p>
+                    <div class="icon">
+                        <!-- Forecast Icon -->
+                    </div>
+                    <p class="temp">21°F</p>
+                </div>
+                <div class="day">
+                    <p>Saturday</p>
+                    <div class="icon">
+                        <!-- Forecast Icon -->
+                    </div>
+                    <p class="temp">24°F</p>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="script.js"></script>
